@@ -1,0 +1,202 @@
+body {
+    background-color: white;
+}
+
+
+/* HEADER */
+
+.header {
+    position: absolute;
+    width: 100%;
+    background-color: #00E9C9;
+}
+.title-header {
+    position: absolute;
+    margin-left: 20rem;
+    font-size: 25px !important;
+    font-weight: bolder;
+}
+.nav-header {
+    margin: auto;
+}
+.nav-header .nav-item {
+    margin: 0 1rem 0 1rem;
+}
+.lang-header {
+    text-decoration: underline;
+    position: absolute;
+    margin-right: 20rem;
+    right: 0;
+    color: black;
+    cursor: pointer;
+}
+.header img {
+    height: 45px;
+    margin-right: 1.5rem;
+}
+.icon-dl {
+    width: 25px;
+    margin-left: 1.2rem;
+}
+
+
+/* HOMEPAGE */
+
+.homepage {
+    display: flex;
+    background-color: #00E9C9;
+}
+.home-title {
+    font-size: 70px;
+    font-weight: 600;
+}
+.home-text-title {
+    font-size: 25px;
+    font-weight: lighter;
+}
+.text-color {
+    color: rgb(1, 39, 206);
+}
+.discover {
+    padding: 1rem 2.5rem 1rem 2.5rem !important;
+    border-radius: 40px !important;
+    margin: 1.3rem 3rem 0 0;
+}
+.download {
+    padding: 1rem 2.3rem 1rem 2.3rem !important;
+    border-radius: 40px !important;
+    border: 2px solid rgb(36, 36, 102) !important;
+    color:rgb(36, 36, 102) !important;
+    margin-top: 1.3rem;
+}
+.download:hover {
+    background-color: rgb(36, 36, 102) !important;
+    color: white !important;
+}
+#appstore-dl {
+    height: 55px;
+}
+
+
+/* PRESENTAITON */
+
+.presentation > .container-min {
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.pres-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.profil {
+    display: grid;
+    margin: 2.5rem 0 2.5rem 0;
+}
+.pf-img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+}
+.pf-img, .pf-title {
+    padding-bottom: 1rem;
+    margin: auto;
+}
+.pf-status {
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+    margin-bottom: 0.5rem;
+}
+.pf-status-sub {
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 1.2rem;
+}
+.pf-skill {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 2rem;
+}
+.pf-skill > li {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* DESIGN */
+
+.design {
+    background-color: rgb(91, 128, 230);
+    display: flex;
+}
+.design-mockup {
+    text-align: center;
+}
+.design-mockup img {
+    width: 100%;
+}
+.design-mockup h1 {
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+}
+.design-mockup p {
+    color: white;
+    font-size: 26px;
+}
+.colored {
+    color: turquoise !important;
+}
+
+
+/** MORE **/
+
+.more-title {
+    color: white;
+    font-size: 58px;
+    font-weight: 600;
+}
+.more-text-title {
+    color: white;
+    font-size: 22px;
+}
+
+.more-text {
+    margin-top: 12%;
+}
+
+
+/** CONTACT **/
+
+.form-contact {
+    /* display: inline-grid;
+    align-content: center; */
+    margin-top: 10%;
+}
+.btn-form {
+    float: right;
+    background-color: rgb(91, 128, 230);
+    color: white;
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    border: 2px solid white;
+    font-size: 22px;
+}
+.btn-newsletter {
+    float: right;
+    background-color: #019682;
+    color: white;
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
+    border: 2px solid white;
+    font-size: 22px;
+}
+
+
+/** RESPONSIVE **/
+
+@media screen and (max-width: 800px) {
+    .form-contact {
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+}
